@@ -10,7 +10,7 @@ const articles = () => {
           <title>Chidike | Articles Page</title>
           <meta name="description" content="any description" />
             </Head>
-            <main>
+            <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
                 <Layout>
                     <AnimatedText text="Words Can Change The World!" className="mb-16" />
                     <ul>
