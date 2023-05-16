@@ -11,9 +11,9 @@ const articles = () => {
           <meta name="description" content="any description" />
             </Head>
             <main className="w-full mb-16 flex flex-col items-center justify-center overflow-hidden">
-                <Layout>
+                <Layout className="pt-16">
                     <AnimatedText text="Words Can Change The World!" className="mb-16" />
-                    <ul>
+                    <ul className="grid grid-col-2 gap-16">
                         <li>Featured Articles-1</li>
                         <li>Featured Articles-2</li>
                     </ul>
